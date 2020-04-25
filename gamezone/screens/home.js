@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
     StyleSheet, View, Text, Button, FlatList, TouchableOpacity, Modal
-    , TouchableWithoutFeedback, Keyboard
+    , TouchableWithoutFeedback, Keyboard,ImageBackground
 } from 'react-native';
 import { globalStyles } from '../styles/global';
 import Card from '../shared/card';
@@ -29,7 +29,7 @@ export default function Home({ navigation }) {
 
     };
     return (
-        <View style={globalStyles.container}>
+        <ImageBackground source={require('../assets/game_bg.png')} style={globalStyles.container}>
             {/* <Text style={globalStyles.titleText}>Home Screen</Text> */}
             {/* <Button title='go to review dets' onPress={pressHandler} /> */}
             <Modal visible={modalOpen} animationType='slide'>
@@ -65,7 +65,7 @@ export default function Home({ navigation }) {
                 )}
 
             />
-        </View>
+        </ImageBackground>
     )
 }
 
