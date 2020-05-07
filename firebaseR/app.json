@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Ez Health",
-    "slug": "ez-health",
+    "name": "firebaseR",
+    "slug": "firebaseR",
     "platforms": [
       "ios",
       "android",
@@ -23,8 +23,6 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "description": "Ez Health by EzTech Team",
-    "githubUrl": "https://github.com/nguyensonhai/ezhealth"
+    }
   }
 }
